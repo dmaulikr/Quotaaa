@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Quotaaa_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Quote Me" textAlignment="center" id="nJ2-1u-YMp"/>
+                        <table alignment="left" id="xg4-Sp-hYb">
+                            <items>
+                                <tableRow identifier="quoteRow" id="Wy9-hR-U82" customClass="QuoteTableRow" customModule="Quotaaa_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="46.5" alignment="left" id="kHM-RU-ZP2">
+                                        <items>
+                                            <label width="136" height="43" alignment="left" text="Label" numberOfLines="0" id="Xdu-hx-Go2">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="quoteLabel" destination="Xdu-hx-Go2" id="Iui-m0-oEz"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="Xzm-Ch-lSj">
+                        <items>
+                            <menuItem title="Happy" icon="accept" id="8Tf-AM-XJL">
+                                <connections>
+                                    <action selector="onHappyMenuItemPressed" destination="AgC-eL-Hgc" id="fCH-Eu-J4E"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Sad" icon="decline" id="8ab-R7-Piy">
+                                <connections>
+                                    <action selector="onSadMenuItemPressed" destination="AgC-eL-Hgc" id="sDM-In-IbJ"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="quoteTable" destination="xg4-Sp-hYb" id="VM1-8G-Z60"/>
+                        <outlet property="quoteTitleLabel" destination="nJ2-1u-YMp" id="HLo-98-x6i"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

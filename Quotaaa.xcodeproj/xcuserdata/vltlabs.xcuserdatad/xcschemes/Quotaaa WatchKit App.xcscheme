@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B80F9371B1D38F400D9E744"
-               BuildableName = "Quotaaa.app"
-               BlueprintName = "Quotaaa"
+               BlueprintIdentifier = "3B80F96A1B1D390200D9E744"
+               BuildableName = "Quotaaa WatchKit App.app"
+               BlueprintName = "Quotaaa WatchKit App"
                ReferencedContainer = "container:Quotaaa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B80F94C1B1D38F400D9E744"
-               BuildableName = "QuotaaaTests.xctest"
-               BlueprintName = "QuotaaaTests"
+               BlueprintIdentifier = "3B80F9601B1D390100D9E744"
+               BuildableName = "Quotaaa WatchKit Extension.appex"
+               BlueprintName = "Quotaaa WatchKit Extension"
+               ReferencedContainer = "container:Quotaaa.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3B80F9371B1D38F400D9E744"
+               BuildableName = "Quotaaa.app"
+               BlueprintName = "Quotaaa"
                ReferencedContainer = "container:Quotaaa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B80F94C1B1D38F400D9E744"
-               BuildableName = "QuotaaaTests.xctest"
-               BlueprintName = "QuotaaaTests"
-               ReferencedContainer = "container:Quotaaa.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B80F9371B1D38F400D9E744"
-            BuildableName = "Quotaaa.app"
-            BlueprintName = "Quotaaa"
+            BlueprintIdentifier = "3B80F96A1B1D390200D9E744"
+            BuildableName = "Quotaaa WatchKit App.app"
+            BlueprintName = "Quotaaa WatchKit App"
             ReferencedContainer = "container:Quotaaa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Quotaaa">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B80F9371B1D38F400D9E744"
-            BuildableName = "Quotaaa.app"
-            BlueprintName = "Quotaaa"
+            BlueprintIdentifier = "3B80F96A1B1D390200D9E744"
+            BuildableName = "Quotaaa WatchKit App.app"
+            BlueprintName = "Quotaaa WatchKit App"
             ReferencedContainer = "container:Quotaaa.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3B80F96A1B1D390200D9E744"
+            BuildableName = "Quotaaa WatchKit App.app"
+            BlueprintName = "Quotaaa WatchKit App"
+            ReferencedContainer = "container:Quotaaa.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Quotaaa">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B80F9371B1D38F400D9E744"
-            BuildableName = "Quotaaa.app"
-            BlueprintName = "Quotaaa"
+            BlueprintIdentifier = "3B80F96A1B1D390200D9E744"
+            BuildableName = "Quotaaa WatchKit App.app"
+            BlueprintName = "Quotaaa WatchKit App"
             ReferencedContainer = "container:Quotaaa.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3B80F96A1B1D390200D9E744"
+            BuildableName = "Quotaaa WatchKit App.app"
+            BlueprintName = "Quotaaa WatchKit App"
+            ReferencedContainer = "container:Quotaaa.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
